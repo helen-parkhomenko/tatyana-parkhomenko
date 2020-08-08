@@ -1,0 +1,12 @@
+@font-face {
+font-family:Jane; /* Присваиваем имя шрифту */
+src:url(../CSS/Ekaterina_Velikaya_One.ttf) /* Путь к шрифту в формате .ttf */
+}
+@font-face {
+font-family:Tanya; /* Присваиваем имя шрифту */
+src:url(../CSS/Decor.ttf) /* Путь к шрифту в формате .ttf */
+}
+@font-face {
+font-family:Jane1; /* Присваиваем имя шрифту */
+src:url(../CSS/English157C_.ttf) /* Путь к шрифту в формате .ttf */
+}

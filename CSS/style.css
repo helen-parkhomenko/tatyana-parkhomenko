@@ -1,0 +1,1271 @@
+main
+{
+  width:1100px;
+  background-color: #CCCCCC;
+	margin:0 auto;/*выравнивание;*/
+	box-shadow: 0 0 30px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+h3{
+	color:darkblue;
+}
+h1
+{
+	margin-left:35%;
+	font-size:34pt;
+	font-weight:595;
+	padding-top:0px;
+	font-family: "Jane";/*"Monotype Corsiva";*/
+}
+
+
+
+
+#label1
+{
+	padding-top:10px;
+	line-height: 200px; 
+	margin-right:105%;
+	    font-family: "Century Gothic";
+
+
+}
+/*Новий Прилоадер*/
+/*
+ * Title: Pure CSS3 Menu
+ * Author: Clear
+ * Version: 1.0.0
+ * Create: 2015-06-05
+ * Update: 2015-06-15
+ * http://www.ClearDesign.me
+ */
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+/*	box-sizing: border-box;*/
+	outline: none;
+	font-weight: normal;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+
+}
+
+/*Квадратики*/
+.box-sizing(@a: border-box) {
+	-webkit-box-sizing: @a;
+	   -moz-box-sizing: @a;
+		-ms-box-sizing: @a;
+		 -o-box-sizing: @a;
+			box-sizing: @a;
+}
+
+.transition(@t: .5s) {
+	-webkit-transition: all @t;
+	   -moz-transition: all @t;
+		-ms-transition: all @t;
+		 -o-transition: all @t;
+			transition: all @t;
+}
+
+.transform(@t: roate(0deg)) {
+	-webkit-transform: @t;
+	   -moz-transform: @t;
+		-ms-transform: @t;
+		 -o-transform: @t;
+			transform: @t;
+}
+
+.transform-origin(@x: 50%,@y: 50%) {
+	-webikt-transform-origin: @x @y;
+	   -moz-transform-origin: @x @y;
+		 -o-transform-origin: @x @y;
+			transform-origin: @x @y;
+}
+
+.border-radius(@a: 0) {
+	-webit-border-radius: @a;
+	   -moz-border-radius: @a;
+		-ms-border-radius: @a;
+		 -o-border-radius: @a;
+			border-radius: @a;
+}
+
+.animation(@a: all) {
+	-webkit-animation: @a;
+	   -moz-animation:@a;
+	  	-ms-animation: @a;
+		 -o-animation: @a;
+			animation: @a;
+}
+
+
+
+
+
+
+
+
+/*Ефект для буковок, текста на главной*/
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+  background-color: rgba(34, 34, 34, 1);
+
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+/*     margin-top: 3%;*/
+
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:650px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  z-index: 1000; /*располагаем его над всеми элементами на странице*/
+
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+
+
+
+
+
+/**/
+#navbar li:hover ul { display: block; }
+      #navbar, #navbar ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      #navbar {
+	    position: absolute;
+	    background-color: rgba(34, 34, 34, 1);
+        width: 1100px;
+        height:58px;
+	    margin-top:3%;
+	    margin-left: auto;
+        margin-right: auto;
+      }
+      #navbar li {
+        float: left;
+        position: relative;
+        height: 58px;
+		width:170px;
+		margin-left: 3%;
+      }
+	
+      #navbar li a {
+        display: block;
+        padding: 10px;
+        color: #CCCCCC;
+    top:15%;
+    margin:3%;
+		font-family: "Century Gothic";
+		font-size:16pt;
+        text-decoration: none;
+        text-align: center;
+      }
+	  #navbar ul{
+        display: none;
+        position: absolute;
+        top: 100%;
+		
+      }
+	  #navbar ul li {
+      float: center;
+      /*position: relative;
+      */padding-bottom:7px;
+      height: 58px;
+		  font-family: "Century Gothic";
+		  text-align: justify; /* Выравнивание по ширине */
+		  width:170px;
+		  margin-left:0%;
+		  margin-top:0%;
+		  margin-bottom:0%;
+		  z-index:99999;
+     /* padding-left: 10px;*/
+	  	background-color: rgba(34, 34, 34, 1);
+      }
+      
+	  #navbar ul li:hover 
+	  {
+		  background-color: black;
+		  
+	  }
+      #navbar li:hover 
+	  {
+		  
+		  background-color: black; 
+	  }
+	  #navbar li a:hover 
+	  {
+		  
+		  color: gold; 
+	  }
+/*Anketa*/
+.ank
+{
+	color:purple;
+}
+.improv_block
+{ position:relative;
+        overflow:hidden;
+        height:890px;
+		width:99%;
+	margin-left: 2.5%;
+	margin-top:-5%;
+	margin-right: 4%;
+	/*box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Параметры тени */
+
+	
+}
+.improv
+{ position:relative;
+margin-left:1%;
+overflow: hidden;
+margin-top:1.5%;
+/*border:3px solid grey /*#034F80*/; /* изменение цвета рамки при наведении на картинку */
+	box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Параметры тени */
+        /*box-shadow: 0 0 35px rgba(0,0,0,0.5); /* Параметры тени */
+        width: 296px;
+        height:384px;
+}
+ .improv img { /*управляю картинками*/
+    width:300px;
+    height:200px;
+    margin-top: 0%;
+   text-indent: 0.3em;
+	/*padding: 10px; /* Поля вокруг текста */
+    margin-bottom: 2%; /* Отступ снизу */
+	margin-left:-0.4%;
+	/*Ефект*/
+	-moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+	object-fit: cover;
+}  
+ .improv_text1{ 
+ color:black;
+   width:280px;
+   
+margin-left: 6%;
+    margin-top: -2%;
+    margin-bottom: 2%; /* Отступ снизу */
+	font-family: "Century";
+	font-size: 14pt;
+	text-indent: 0.3em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+}  
+ .improv_text2{ 
+ color:black;
+ color:darkblue;
+   width:270px;
+   	font-weight:580;
+margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%; /* Отступ снизу */
+	font-family: "Jane1";
+	font-size: 24pt;
+	text-indent: 0.3em; /* Отступ первой строки */
+	text-align: justify;
+}
+.improv_text2:hover{ 
+color:purple;
+   width:270px;
+  
+margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%; /* Отступ снизу */
+	font-family: "Jane1";
+	font-size: 24pt;
+	text-indent: 0.3em; /* Отступ первой строки */
+	text-align: justify;
+}
+ .improv_text3{
+color:black;	 
+   width:270px;
+margin-left: 4%;
+    margin-top: -2%;
+    margin-bottom: 4%; /* Отступ снизу */
+	font-family: "Century";
+	font-size: 13pt;
+	text-indent: 1.7em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+}
+.improv img:hover{
+	-webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ overflow: hidden;
+ }
+
+
+ 
+   
+	/*Головна,карта*/
+	
+	
+
+.btn {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: #62d474;
+  border-radius: 50%;
+  right: 45px;
+  top: 10px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 80px;
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.8s ease;
+}
+
+.input.active {
+  width: 350px;
+  right: 100px;
+}
+
+.btn.animate {
+  transform: rotate(-360deg);
+  right: 100px;
+}
+
+	
+  /*Tanya*/
+
+  .transform-border {
+    position: relative;
+    max-width: 100%;
+    margin: 50px auto;
+    transform: perspective(3000px) rotateY(29deg);
+  }
+  .transform-border img {
+    display: block;
+    width: 100%;
+    box-shadow: -12px 11px 1px #f2f2f2;
+  }
+  .transform-border:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -22px;
+    top: 22px;
+    background: #cccccc;
+    z-index: -1;
+  }
+
+
+  .dbl-border {
+    position: relative;
+    display: table;
+    margin: 50px auto;
+  }
+  .dbl-border img {display: block;}
+  .dbl-border:before, 
+  .dbl-border:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #40D8EC;
+  }
+  .dbl-border:before {
+    top: -15px;
+    left: -15px;
+  }
+  .dbl-border:after {
+    right: -15px;
+    bottom: -15px;
+  }
+  .image-wrapper {
+    
+    position: relative;
+    z-index: 2;
+    padding: 5px;
+    border: 4px solid white;
+    background: white;
+    
+  }
+	.tan
+	{
+		width: 40%;
+		height:40%;
+		
+	}
+	
+	  .poem
+	  {
+       margin: 3%; /* Отступы вокруг элемента */
+       padding: 7px;
+       /*border: 4px double black;*/
+       background-color:#CCCCCC; 
+     margin-left: 52%;
+     font-style: oblique;
+       margin-right: 0%;
+	   margin-bottom: 47%;
+	   margin-top:-64%;
+	  }
+.map
+ {
+	/*margin: 0%; /* Отступы вокруг элемента */
+    padding: 7px;
+	margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
+  }
+.ter
+{
+	width: 400px;
+    height:50px;
+  font-size:17pt;
+  padding-top:1%;
+	margin-left: 14%;
+		color:#FFCC33 ;
+	/*color:#FF6666;*/
+	font-family: "Jane";/*"Monotype Corsiva";*/
+	/*font-family:  Arial, Helvetica, sans-serif;*/
+}
+.par
+{
+	width: 400px;
+    height:0px;
+  font-size:16pt;
+  padding-top:1%;
+	margin-left: 48%;
+	margin-bottom: 10%;
+	color:#FFCC33 ;
+	font-family: "Jane";/*"Monotype Corsiva";*/
+}
+	 /**/
+
+
+/*Виставки, текст */
+.art
+{
+	margin: 0%; /* Отступы вокруг элемента */
+    padding: 0px;
+	margin-left: 1%;
+    margin-right: 1%;
+    padding-top:1%;
+	padding-bottom:0%;
+	font-size:16pt;
+}
+
+
+
+	 
+	  
+	  /* Gallery */ 
+	  
+@keyframes reveal {
+    to { 
+       opacity: 1; 
+    }
+}
+
+
+
+.shuffle {
+	
+	width:950px;
+    min-height: 100vh;
+    position: relative;
+	margin-left: 4%;
+	/*border:3px solid black; /* рамка картинок */
+}
+.shuffle img { /*управляю картинками*/
+    /* background: #fc0; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.7); /* Параметры тени */
+    max-width: 300px;
+    max-height:250px;
+    margin-top: 2%;
+    opacity: 0; 
+    transform: scale(1.3);
+   text-indent: 1.5em;
+	/*margin:25px; /* внешние отступы картинок */
+	border:3px solid darkbrown; /* рамка картинок */
+	/*padding: 10px; /* Поля вокруг текста */
+    margin-bottom: 8%; /* Отступ снизу */
+	margin-left:14%;
+}
+.reveal img { 
+    animation: reveal 1s 1s forwards; 
+}
+.expose {
+    border: 1.4rem solid #eee;
+}
+
+
+a.phot img{
+	/* background: #fc0; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    width: 200px;
+    height:350px;
+    margin-top: 2%;
+    opacity: 0; 
+    transform: scale(1.3);
+   text-indent: 1.5em;
+	/*margin:25px; /* внешние отступы картинок */
+	/*border:3px solid black; /* рамка картинок */
+	/*padding: 10px; /* Поля вокруг текста */
+    margin-bottom: 8%; /* Отступ снизу */
+}
+a.phot:hover img{/*phot*/
+	border:3px solid grey /*#034F80*/; /* изменение цвета рамки при наведении на картинку */
+	box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Параметры тени */
+	transform: rotate(2deg);
+}
+
+a.photo
+{ width: 200px;
+  height:150px;
+ /* рамка картинок 
+
+	padding:0%;*/
+}
+/*photo*/
+a.photo:hover img{
+	border:3px solid grey /*#034F80*/; /* изменение цвета рамки при наведении на картинку */
+	box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Параметры тени */
+	transform: rotate(2deg);
+}
+
+/*#bigImg img
+{
+	border: 5px solid gray;
+	box-shadow: 10px 10px 5px black;
+}*/
+
+/*Сайт(header)*/
+.ven
+{
+	padding-right: 15%;
+	margin-bottom:80%;
+	
+}
+
+.header
+{
+    position: relative;
+    width: 1100px;
+    height:80px;
+	margin-top:-3%;
+	margin-left: auto;
+    margin-right: auto;
+}
+header
+{
+	height:197px;
+	background-color:#0A122A;
+	font-size:24pt;
+	
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    height: 100%;
+	background-image: url(../29.jpg);
+	background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    /*background-color: rgba(255, 255, 255, 1);*/
+	font: normal normal normal 14pt 'Raleway';
+    color: rgba(0, 0, 0, 1);
+    background-color: transparent;
+    text-align: left;
+    text-decoration: none;
+}
+
+article
+{
+	/*background-color:gray;*/
+	font-size:24pt;
+	text-align:left;
+	text-indent:1.27pt;
+    margin-top: 4%;
+	position: relative;
+	display: flexbox;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 520px;
+    background-color: #CCCCCC;
+    margin-bottom: 0px;
+}
+footer
+{
+	height:100px;
+	background-color:#0A122A;
+  font-size:24pt;
+  margin:0%;
+	text-align:center;
+	
+}
+.post{
+	color:grey;
+	font-size:14pt;
+	float: right;
+	margin-top:5%;
+	padding:18px;
+	margin-right:2%;
+}
+ /*Поширити, фейсбук*/
+
+ /*facebook*/
+ .wrapper {
+  position: relative;
+  top: 8%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  width: 530px;
+}
+
+
+
+/* Style the Un-order list by setting its list-style to none */
+.wrapper ul {
+  list-style: none;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+  and float them to left and set its border and border-radius.
+ */
+.wrapper ul li {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0 13px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #D8E2DC;
+  float: left;
+  transition: all 0.5s ease;
+}
+
+/* Style the icons by setting its color and margin-top value to 20px 
+to align it properly */
+.wrapper ul li .fa {
+  color: #D8E2DC;
+  margin-top: 6px;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover.facebook {
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+/* instagram */
+.wrapper ul li:hover.instagram {
+  border: 5px solid #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-instagram {
+  
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+
+
+
+aside
+{
+	width:200px;
+	height:500px;
+	background-color:gray;
+	border-radius:5px;
+	border:1px solid black;
+	position:fixed;
+	top:100px;
+	left:-150px;
+	transition:left 1s ease-out 0.5s;
+}
+aside:hover
+{
+	left:0;
+}
+.droplink {
+  width:200px;
+ /* position:absolute;*/
+  border-radius:3px;
+  /*margin:10px 0 0 25px*/
+}
+/*Сбросим отступы*/
+.droplink ul{padding:0;margin:0}
+/*стиль кнопки*/
+.socialbutton {
+  background-color:#ededed;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  color:#777777;
+  font-size:15px;
+  font-weight:bold;
+  padding:8px 27px;
+  text-decoration:none;
+ /* margin-top: 10px;*/
+  cursor: pointer}
+/*кнопка при наведении*/
+.socialbutton:hover {background-color:#dfdfdf}
+/*активное состояние кнопки*/
+.socialbutton:active{position:relative;top:1px}
+.droplink li{display:block;background-color:white;}
+/*Стиль элемента списка*/
+.droplink li a{
+  padding:5px 12px 4px 34px;
+  margin:1px;
+  display:block;
+  color:#000;
+  text-decoration: none;
+  font-size:12px;
+  background-repeat:no-repeat;
+  background-position: 10px 3px}
+/*Стиль элемента при наведении*/
+.droplink li a:hover {background-color: #999}
+
+/*.gal
+{
+	border:2px solid white/*рамка*;
+	margin:3%;
+	
+}*/
+.gal:hover/*когда наводим*/
+{
+	border:2px solid gold/*рамка*/;
+	margin:3px;
+	
+}
+#bigImg img/*для любой картинки прогруженой в div*/
+{
+	border: 5px solid gray;
+	box-shadow:10px -10px 5px black;
+}
+
+
+
+	div.scrollup {
+  position: fixed; /* фиксированная позиция */
+  color: #fff; /* цвет текста */
+  max-width: 60px;
+  background-color: #286090; /* цвет заднего фона */
+  right: 24px; /* расстояние от правого края */
+  bottom: 0px; /* расстояние от нижнего края */
+  padding: 4px 10px; /* отступы до содержимого блока */
+  font-size: 40px; /* размер шрифта (иконки) */
+  border-top-left-radius: 4px; /* скругление верхнего левого угла */
+  border-top-right-radius: 4px; /* скругление верхнего правого угла */
+  cursor: pointer; /* форма курсора */
+  display: none; /* не отображать элемент */
+  text-align: center; /*выравнивание содержимого элемента по центру */
+}
+div.scrollup:hover {
+  background-color: #000; /* цвет заднего фона при наведении */
+}
+
+#before-load {
+  position: fixed; /*фиксированное положение блока*/
+  left: 0; /*положение элемента слева*/
+  top: 0; /*положение элемента сверху*/
+  right: 0; /*положение элемента справа*/
+  bottom: 0; /*положение элемента снизу*/
+  background: black; /*цвет заднего фона блока*/
+  opacity:0.95;
+  z-index: 101; /*располагаем его над всеми элементами на странице*/
+}
+#before-load i {
+  font-size: 70px; /*размер иконки*/
+  position: absolute; /*положение абсолютное, позиционируется относительно его ближайшего предка*/
+  left: 50%; /*слева 50% от ширины родительского блока*/
+  top: 50%; /*сверху 50% от высоты родительского блока*/
+  margin: -35px 0 0 -35px; /*смещение иконки, чтобы она располагалась по центру*/
+}
+
+/*Poems*/
+
+#poems{
+	z-index: 1001;
+	
+	float: right; /* Выравнивание по правому краю  */ 
+    margin-right: 1%; /* Отступы вокруг картинки */
+}
+
+.ph_poem
+{
+max-width: 20px;
+}
+.sec
+{
+	/*margin: 0%; /* Отступы вокруг элемента */
+	margin-left: 5%;
+    margin-right: 2%;
+	/*font-family: "Syper Pyper Chrift;";*/
+    padding-top:0%;
+    font-style: oblique;
+  font-size:14pt;
+}
+.sec_p
+{
+	/*margin: 0%; /* Отступы вокруг элемента */
+	margin-left: 5%;
+    margin-right: 2%;
+	/*font-family: "Syper Pyper Chrift;";*/
+    padding-top:0%;
+    font-style: oblique;
+  font-size:20pt;
+  width:71%;
+}
+
+@media(max-width: 740px){
+  a.photo{max-width: 100%; min-width: 35%;}
+}
+
+
+/*Прилоадер(квадратики)*/
+/**, *:before, *:after {
+  box-sizing: border-box;
+}*/
+
+
+
+
+
+.banter-loader {
+  position: absolute;
+  z-index: 999999;
+  left: 50%;
+  top: 50%;
+  width: 72px;
+  height: 72px;
+  margin-left: -36px;
+  margin-top: -36px;
+}
+.banter-loader__box {
+  float: left;
+  
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+.banter-loader__box:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.banter-loader__box:nth-child(3n) {
+  margin-right: 0;
+  margin-bottom: 6px;
+}
+.banter-loader__box:nth-child(1):before, .banter-loader__box:nth-child(4):before {
+  margin-left: 26px;
+}
+.banter-loader__box:nth-child(3):before {
+  margin-top: 52px;
+}
+.banter-loader__box:last-child {
+  margin-bottom: 0;
+}
+
+@keyframes moveBox-1 {
+  9.0909090909% {
+    transform: translate(-26px, 0);
+  }
+  18.1818181818% {
+    transform: translate(0px, 0);
+  }
+  27.2727272727% {
+    transform: translate(0px, 0);
+  }
+  36.3636363636% {
+    transform: translate(26px, 0);
+  }
+  45.4545454545% {
+    transform: translate(26px, 26px);
+  }
+  54.5454545455% {
+    transform: translate(26px, 26px);
+  }
+  63.6363636364% {
+    transform: translate(26px, 26px);
+  }
+  72.7272727273% {
+    transform: translate(26px, 0px);
+  }
+  81.8181818182% {
+    transform: translate(0px, 0px);
+  }
+  90.9090909091% {
+    transform: translate(-26px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.banter-loader__box:nth-child(1) {
+  animation: moveBox-1 4s infinite;
+}
+
+@keyframes moveBox-2 {
+  9.0909090909% {
+    transform: translate(0, 0);
+  }
+  18.1818181818% {
+    transform: translate(26px, 0);
+  }
+  27.2727272727% {
+    transform: translate(0px, 0);
+  }
+  36.3636363636% {
+    transform: translate(26px, 0);
+  }
+  45.4545454545% {
+    transform: translate(26px, 26px);
+  }
+  54.5454545455% {
+    transform: translate(26px, 26px);
+  }
+  63.6363636364% {
+    transform: translate(26px, 26px);
+  }
+  72.7272727273% {
+    transform: translate(26px, 26px);
+  }
+  81.8181818182% {
+    transform: translate(0px, 26px);
+  }
+  90.9090909091% {
+    transform: translate(0px, 26px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.banter-loader__box:nth-child(2) {
+  animation: moveBox-2 4s infinite;
+}
+
+@keyframes moveBox-3 {
+  9.0909090909% {
+    transform: translate(-26px, 0);
+  }
+  18.1818181818% {
+    transform: translate(-26px, 0);
+  }
+  27.2727272727% {
+    transform: translate(0px, 0);
+  }
+  36.3636363636% {
+    transform: translate(-26px, 0);
+  }
+  45.4545454545% {
+    transform: translate(-26px, 0);
+  }
+  54.5454545455% {
+    transform: translate(-26px, 0);
+  }
+  63.6363636364% {
+    transform: translate(-26px, 0);
+  }
+  72.7272727273% {
+    transform: translate(-26px, 0);
+  }
+  81.8181818182% {
+    transform: translate(-26px, -26px);
+  }
+  90.9090909091% {
+    transform: translate(0px, -26px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.banter-loader__box:nth-child(3) {
+  animation: moveBox-3 4s infinite;
+}
+
+@keyframes moveBox-4 {
+  9.0909090909% {
+    transform: translate(-26px, 0);
+  }
+  18.1818181818% {
+    transform: translate(-26px, 0);
+  }
+  27.2727272727% {
+    transform: translate(-26px, -26px);
+  }
+  36.3636363636% {
+    transform: translate(0px, -26px);
+  }
+  45.4545454545% {
+    transform: translate(0px, 0px);
+  }
+  54.5454545455% {
+    transform: translate(0px, -26px);
+  }
+  63.6363636364% {
+    transform: translate(0px, -26px);
+  }
+  72.7272727273% {
+    transform: translate(0px, -26px);
+  }
+  81.8181818182% {
+    transform: translate(-26px, -26px);
+  }
+  90.9090909091% {
+    transform: translate(-26px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.banter-loader__box:nth-child(4) {
+  animation: moveBox-4 4s infinite;
+}
+
+@keyframes moveBox-5 {
+  9.0909090909% {
+    transform: translate(0, 0);
+  }
+  18.1818181818% {
+    transform: translate(0, 0);
+  }
+  27.2727272727% {
+    transform: translate(0, 0);
+  }
+  36.3636363636% {
+    transform: translate(26px, 0);
+  }
+  45.4545454545% {
+    transform: translate(26px, 0);
+  }
+  54.5454545455% {
+    transform: translate(26px, 0);
+  }
+  63.6363636364% {
+    transform: translate(26px, 0);
+  }
+  72.7272727273% {
+    transform: translate(26px, 0);
+  }
+  81.8181818182% {
+    transform: translate(26px, -26px);
+  }
+  90.9090909091% {
+    transform: translate(0px, -26px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.banter-loader__box:nth-child(5) {
+  animation: moveBox-5 4s infinite;
+}
+
+@keyframes moveBox-6 {
+  9.0909090909% {
+    transform: translate(0, 0);
+  }
+  18.1818181818% {
+    transform: translate(-26px, 0);
+  }
+  27.2727272727% {
+    transform: translate(-26px, 0);
+  }
+  36.3636363636% {
+    transform: translate(0px, 0);
+  }
+  45.4545454545% {
+    transform: translate(0px, 0);
+  }
+  54.5454545455% {
+    transform: translate(0px, 0);
+  }
+  63.6363636364% {
+    transform: translate(0px, 0);
+  }
+  72.7272727273% {
+    transform: translate(0px, 26px);
+  }
+  81.8181818182% {
+    transform: translate(-26px, 26px);
+  }
+  90.9090909091% {
+    transform: translate(-26px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.banter-loader__box:nth-child(6) {
+  animation: moveBox-6 4s infinite;
+}
+
+@keyframes moveBox-7 {
+  9.0909090909% {
+    transform: translate(26px, 0);
+  }
+  18.1818181818% {
+    transform: translate(26px, 0);
+  }
+  27.2727272727% {
+    transform: translate(26px, 0);
+  }
+  36.3636363636% {
+    transform: translate(0px, 0);
+  }
+  45.4545454545% {
+    transform: translate(0px, -26px);
+  }
+  54.5454545455% {
+    transform: translate(26px, -26px);
+  }
+  63.6363636364% {
+    transform: translate(0px, -26px);
+  }
+  72.7272727273% {
+    transform: translate(0px, -26px);
+  }
+  81.8181818182% {
+    transform: translate(0px, 0px);
+  }
+  90.9090909091% {
+    transform: translate(26px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.banter-loader__box:nth-child(7) {
+  animation: moveBox-7 4s infinite;
+}
+
+@keyframes moveBox-8 {
+  9.0909090909% {
+    transform: translate(0, 0);
+  }
+  18.1818181818% {
+    transform: translate(-26px, 0);
+  }
+  27.2727272727% {
+    transform: translate(-26px, -26px);
+  }
+  36.3636363636% {
+    transform: translate(0px, -26px);
+  }
+  45.4545454545% {
+    transform: translate(0px, -26px);
+  }
+  54.5454545455% {
+    transform: translate(0px, -26px);
+  }
+  63.6363636364% {
+    transform: translate(0px, -26px);
+  }
+  72.7272727273% {
+    transform: translate(0px, -26px);
+  }
+  81.8181818182% {
+    transform: translate(26px, -26px);
+  }
+  90.9090909091% {
+    transform: translate(26px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.banter-loader__box:nth-child(8) {
+  animation: moveBox-8 4s infinite;
+}
+
+@keyframes moveBox-9 {
+  9.0909090909% {
+    transform: translate(-26px, 0);
+  }
+  18.1818181818% {
+    transform: translate(-26px, 0);
+  }
+  27.2727272727% {
+    transform: translate(0px, 0);
+  }
+  36.3636363636% {
+    transform: translate(-26px, 0);
+  }
+  45.4545454545% {
+    transform: translate(0px, 0);
+  }
+  54.5454545455% {
+    transform: translate(0px, 0);
+  }
+  63.6363636364% {
+    transform: translate(-26px, 0);
+  }
+  72.7272727273% {
+    transform: translate(-26px, 0);
+  }
+  81.8181818182% {
+    transform: translate(-52px, 0);
+  }
+  90.9090909091% {
+    transform: translate(-26px, 0);
+  }
+  100% {
+    transform: translate(0px, 0);
+  }
+}
+.banter-loader__box:nth-child(9) {
+  animation: moveBox-9 4s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
