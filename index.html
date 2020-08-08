@@ -1,0 +1,163 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Офіційний сайт Пархоменко Тетяни</title>
+<link rel="stylesheet" href="CSS/reset.css">
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="CSS/fonts.css">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script src="slide/js/mobilyslider.js" type="text/javascript"></script>
+	<script src="slide/js/init.js" type="text/javascript"></script>
+
+
+
+
+</head>
+<body>
+<!-- Блок, который будет отображаться над страницей -->
+<div id="before-load">
+  <!-- Иконка Font Awesome -->
+ <div class="banter-loader">
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+</div>
+ <div style=" margin-bottom:5%;" class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+
+</div>
+<main>
+<header>
+<div class="ter" width: 400px; height: 70px;>
+<h2>Територія розвитку</h2> 
+</div>
+<div class="par">
+<h2>Пархоменко Тетяни</h2>
+</div>
+
+<div class="header">
+	<ul class="hl" id="navbar">
+	<li id="navbarl">
+		<a class="label" href="index.html">Головна		</a>
+</li>
+
+<li>
+	<a class="label" href="Pages/about.html">Про митця</a>
+</li>
+	<li><a class="label" >Галерея</a>
+	<ul>
+<li><a class="label1" href="Pages/painting.html">Живопис</a></li>
+<li><a class="label1" href="Pages/plates.html">Тарілки</a></li>
+<li><a  href="Pages/article.html">Береста</a></li>
+
+    </ul>
+</li>
+		<li>
+		<a href="Pages/poems.html" class="label">Поезія		</a>
+	</li>
+	<li>
+		<a href="Pages/exhibition.html" class="label">Виставки		</a>
+	</li>
+
+</ul>
+</div>
+
+</header>
+
+<article>
+
+<div class="map">
+  
+
+
+  <div class="transform-border">
+    <a><img style="width: 45%; height: 45%;" src="2.jpg" ></a>
+  </div>
+      
+   
+<div class="poem" >
+  <div class="dbl-border">
+    <div class="image-wrapper">
+<h6 style=" padding:1%; font-style: oblique;" > 
+    "Ці полотна барвисті на життя моє схожі,<br> 
+    Бо я бачу цей світ через призму рожевих своїх окуляр,<br> 
+    Але ж скло це не вічне і легко розбитися може,<br> 
+    Тому я бережу їх і щоразу кладу у футляр."<br>  </h6>
+	<h6 style=" margin-left:45%; font-style: sans-seri; " >Т.Пархоменко</h6>
+ </div>
+</div>
+</div>
+ 
+  </div>
+  </article>
+  <footer>
+  <div class="wrapper">
+  <ul>
+  <a href="https://www.facebook.com/profile.php?id=100023505311609">
+    <li class="facebook" ><i href="https://www.facebook.com/profile.php?id=100023505311609" class="fa fa-facebook fa-2x" aria-hidden="true"></i></li>
+    <li class="instagram"><a target="_blank" href="https://instagram.com/_tatyana_art__?igshid=ykjf3ikdswk2"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+  
+  </a>
+  </ul>
+</div>
+  <P class="post">
+    &copy; Helen Parkhomenko.
+  </P>
+  </footer>
+  </main>
+
+  
+  <div class="scrollup">
+<!-- Иконка fa-chevron-up (Font Awesome) -->
+<i class="fa fa-chevron-up"></i>
+</div>
+
+
+<script>
+$(function() {
+  // при нажатии на кнопку scrollup
+  $('.scrollup').click(function() {
+    // переместиться в верхнюю часть страницы
+    $("html, body").animate({
+      scrollTop:0
+    },1000);
+  })
+})
+// при прокрутке окна (window)
+$(window).scroll(function() {
+  // если пользователь прокрутил страницу более чем на 200px
+  if ($(this).scrollTop()>200) {
+    // то сделать кнопку scrollup видимой
+    $('.scrollup').fadeIn();
+  }
+  // иначе скрыть кнопку scrollup
+  else {
+    $('.scrollup').fadeOut();
+  }
+});
+$(window).load(function() {
+  $('#before-load').find('i').fadeOut().end().delay(400).fadeOut('slow');
+});
+
+</script>
+
+
+  <script type="text/javascript" src="script/script.js"></script>
+
+<!-- pcvector.net -->
+<script type="text/javascript" src="http://pcvector.net/templates/pcv/js/pcvector.js"></script>
+<!-- /pcvector.net -->
+
+</body>
+</html>
